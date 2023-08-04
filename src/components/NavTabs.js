@@ -6,7 +6,7 @@ import headshot from '../imgs/headshot.jpeg';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
-      <img class="headShot" src={headshot} alt='headshot'></img>
+      <image class="headShot" src={headshot} alt='headshot'></image>
       <p class='name'>
         I | B
       </p>
