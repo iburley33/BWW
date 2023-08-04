@@ -9,7 +9,7 @@ export default function Portfolio() {
     {
       name: "Burley Home (Current Work in Progress)",
       desc: "Full service E-Commerce app for home design and furniture shopping",
-      link: 'https://young-river-94596.herokuapp.com/login',
+      link: 'https://main.d1nlbx8b203g2u.amplifyapp.com/',
       image: BH
     },
     {
