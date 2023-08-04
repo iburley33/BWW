@@ -10,10 +10,10 @@ function Footer() {
         <footer>
             <div class='linkDiv'>
             <a href='https://www.linkedin.com/in/ian-burley/'>
-                <img class='liLink' src={linkedin}></img>
+                <img class='liLink' src={linkedin} alt='linkedinicon'></img>
             </a>
             <a href='https://github.com/iburley33'>
-                <img class='ghLink' src={github}></img>
+                <img class='ghLink' src={github} alt='githubicon'></img>
             </a>
             </div>
         </footer>

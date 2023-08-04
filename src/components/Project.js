@@ -8,7 +8,7 @@ function Project({ image, name, description, link }) {
     <div className='project'>
         <h3>{name}</h3>
         <a href={link} class='imgLink'>
-        <img src={image} class='cardImg'></img>
+        <img src={image} class='cardImg' alt='projectss'></img>
       </a>
       <p>{description}</p>
     </div>
