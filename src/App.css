@@ -1,37 +1,287 @@
-.App {
-  text-align: center;
+:root {
+  --break-line: #BA2D0B;
+  --head-txt: #19535F;
+  --name-txt:#BA2D0B;
+  --header: white;
+  --footer: #272727;
+  --main-txt: #333;
+  --main-bg: white;
+  --alt-text: #BA2D0B;
+  --alt-bg: white;
+  --card-bg:#19535F;
+  --card-txt:white;
+  --border-radius: 50px;
+  font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div1 {
+  background-color: var(--main-bg);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  border-left: 2px solid var(--break-line);
+  font-family: 'Inter', sans-serif;
+  height: auto;
+  width: 60%;
+  padding-inline: 20px;
+  margin-top: 50px;
+  margin-inline: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: var(--main-txt);
+}
+.base {
+  background-color: var(--main-bg);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  height: auto;
+  width: 60%;
+  padding: 20px;
+  margin-top: 100px;
+  margin-inline: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: var(--main-txt);
+}
+.portfolio {
+  background-color: var(--alt-bg);
+  color: var(--alt-txt);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  border: var(--main-bg);
+  font-family: 'Inter', sans-serif;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-inline: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project {
+  background-color: var(--card-bg);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  border: var(--main-bg);
+  font-family: 'Inter', sans-serif;
+  width: 30%;
+  height: auto;
+  border-radius: 20px;
+  padding: 1%;
+  margin-top: 5%;
+  margin-inline: 4%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 15px;
+  color: var(--card-txt);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img.projectImg{
+
+}
+
+img.headShot {
+  width: 60px;
+  height: 60px;
+  border-radius: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  page-break-after: always;
+  color: var(--head-txt);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background-color: var(--header);
+  color: var(--main-txt);
+  padding-right: 20px;
+  margin-bottom: 30px;
+  border-bottom: #333;
+
+}
+
+li {
+  display: flex;
+}
+footer {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--head-txt);
+  margin-top: 5%;
+  background-color: #19535F;
+}
+.cardImg {
+  height: 80%;
+  width: 80%;
+}
+
+.imgLink {
+  display:flex;
+  justify-content: space-around;
+}
+.liLink {
+  max-height: 35px;
+  border-radius: 5px;
+  margin-inline: 60px;
+}
+.ghLink {
+  max-height: 35px;
+  border-radius: 50%;
+}
+.linkDiv {
+  height: 50%;
+}
+.contactPage{
+  display: flex;
+  flex-direction: row;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 5%;
+}
+.base{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.loud{
+  font-size: xxx-large;
+  margin-left: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.artBox{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+}
+.art{
+  height: 300px;
+  border-radius: 110px;
+  margin-left: 16%;
+}
+.name {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--main-bg);
+  color: var(--name-txt);
+  text-align: center;
+  padding-inline: 14px;
+  font-size: xx-large;
+  margin-right: auto;
+  margin-left: 10px;
+}
+.name2 {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--main-bg);
+  color: var(--name-txt);
+  margin-right: auto;
+  padding: 0%;
+}
+li a {
+  background-color: var(--header);
+  align-self: end;
+  font-family: 'Inter', sans-serif;
+  color: var(--main-txt);
+  text-align: center;
+  justify-self: right;
+  padding-inline: 14px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.portHead {
+  width: 100%;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg);
 }
 
-.App-link {
-  color: #61dafb;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: var(--alt-bg);
+  color: var(--alt-text);
+}
+
+.active {
+  background-color: var(--alt-bg);
+  color: var(--alt-text);
+  border-right: 1px solid var(--break-line);
+  border-left: 1px solid var(--break-line);
+}
+
+.contactSect {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: var(--card-bg);
+  min-width: 35%;
+  max-width: max-content;
+  color: var(--card-txt);
+  border: var(--main-bg);
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  padding: 40px;
+  color: var(--card-txt);
+}
+
+.contact input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.form-box textarea {
+  height: 15vh;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
