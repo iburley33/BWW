@@ -91,10 +91,8 @@
 }
 
 img.art {
-  border-radius: 40px;
-  height: 80px;
-  margin-top: 27px;
-  margin-bottom: auto;
+  border-radius: 60%;
+  height: 105px;
   margin-left: 30px;
 }
 
@@ -104,7 +102,7 @@ img.logo {
   margin-top: 20px;
   margin-bottom: auto;
   margin-right: auto;
-  margin-left: 0;
+  margin-left: 0px;
 }
 
 h1 {
@@ -324,7 +322,13 @@ textarea {
     font-family: 'Inter', sans-serif;
     color: var(--head-txt);
   }
-
+  ul{
+    display: flex;
+  }
+  .nav-menu{
+    display: flex;
+    margin-left: 5px;
+  }
   .base {
     background-color: var(--main-bg);
     font-family: 'Inter', sans-serif;
@@ -332,7 +336,7 @@ textarea {
     font-family: 'Inter', sans-serif;
     height: auto;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-inline: auto;
     flex-direction: column;
     align-items: center;
@@ -345,7 +349,6 @@ textarea {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    padding-left: 15px;
   }
 
   img.art {
@@ -367,7 +370,7 @@ textarea {
     padding-bottom: 5px;
     padding-top: 10px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   .div1 {
@@ -378,6 +381,7 @@ textarea {
     color: var(--main-txt);
   }
   .portfolio{
+    margin-top: 10px;
     overflow-x: hidden;
   }
   .portBody{
@@ -389,6 +393,7 @@ textarea {
   }
   .contactPage{
     flex-direction: column;
+    margin-top: 20px;
   }
   .selfie{
     margin-bottom: 40px;
