@@ -7,8 +7,8 @@ import eatball from '../../imgs/eatball.png'
 export default function Portfolio() {
   const propsArray = [
     {
-      name: "Burley Home (Current Work in Progress)",
-      desc: "Full service E-Commerce app for home design and furniture shopping",
+      name: "Burley Home",
+      desc: "(Current Project) Full service E-Commerce app for home design and furniture shopping.",
       link: 'https://main.d1nlbx8b203g2u.amplifyapp.com/',
       image: BH
     },
@@ -31,9 +31,11 @@ export default function Portfolio() {
       <div class='portHead'>
         <h1>Featured Projects</h1>
       </div>
+      <div class='portBody'>
       {propsArray.map((project) => {
         return <Project name={project.name} description={project.desc} image={project.image} link={project.link} />
       })}
+      </div>
 
     </div>
   );

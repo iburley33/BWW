@@ -1,15 +1,15 @@
 :root {
   --break-line: #BA2D0B;
   --head-txt: #19535F;
-  --name-txt:#BA2D0B;
+  --name-txt: #BA2D0B;
   --header: white;
   --footer: #272727;
   --main-txt: #333;
   --main-bg: white;
   --alt-text: #BA2D0B;
   --alt-bg: white;
-  --card-bg:#19535F;
-  --card-txt:white;
+  --card-bg: #19535F;
+  --card-txt: white;
   --border-radius: 50px;
   font-family: 'Inter', sans-serif;
 }
@@ -20,10 +20,8 @@
   display: flex;
   border-left: 2px solid var(--break-line);
   font-family: 'Inter', sans-serif;
-  height: auto;
   width: 60%;
   padding-inline: 20px;
-  margin-top: 50px;
   margin-inline: auto;
   flex-direction: column;
   align-items: center;
@@ -31,6 +29,7 @@
   font-size: 15px;
   color: var(--main-txt);
 }
+
 .base {
   background-color: var(--main-bg);
   font-family: 'Inter', sans-serif;
@@ -39,7 +38,7 @@
   height: auto;
   width: 60%;
   padding: 20px;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-inline: auto;
   flex-direction: row;
   align-items: center;
@@ -47,16 +46,15 @@
   font-size: 15px;
   color: var(--main-txt);
 }
+
 .portfolio {
   background-color: var(--alt-bg);
   color: var(--alt-txt);
   font-family: 'Inter', sans-serif;
   display: flex;
-  border: var(--main-bg);
   font-family: 'Inter', sans-serif;
   height: auto;
   width: auto;
-  border-radius: 20px;
   padding: 20px;
   margin-top: 100px;
   margin-inline: auto;
@@ -65,6 +63,11 @@
   align-items: center;
   justify-content: center;
   font-size: 15px;
+}
+
+.portBody {
+  display: flex;
+  flex-direction: row;
 }
 
 .project {
@@ -87,14 +90,21 @@
   color: var(--card-txt);
 }
 
-
-img.headShot {
-  width: 60px;
-  height: 60px;
-  border-radius: 200px;
-  margin-top: auto;
+img.art {
+  border-radius: 40px;
+  height: 80px;
+  margin-top: 27px;
   margin-bottom: auto;
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+img.logo {
+  width: auto;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 0;
 }
 
 h1 {
@@ -111,7 +121,6 @@ header {
   background-color: var(--header);
   color: var(--main-txt);
   padding-right: 20px;
-  margin-bottom: 30px;
   border-bottom: #333;
 
 }
@@ -119,6 +128,7 @@ header {
 li {
   display: flex;
 }
+
 footer {
   display: flex;
   height: 80px;
@@ -128,59 +138,70 @@ footer {
   margin-top: 5%;
   background-color: #19535F;
 }
+
 .cardImg {
   height: 80%;
   width: 80%;
 }
 
 .imgLink {
-  display:flex;
+  display: flex;
   justify-content: space-around;
 }
+
 .liLink {
   max-height: 35px;
   border-radius: 5px;
   margin-inline: 60px;
 }
+
 .ghLink {
   max-height: 35px;
   border-radius: 50%;
 }
+
 .linkDiv {
   height: 50%;
 }
-.contactPage{
+
+.contactPage {
   display: flex;
   flex-direction: row;
 }
+
 .contactInfo {
   display: flex;
   flex-direction: column;
   margin: auto;
   padding: 5%;
 }
-.base{
+
+.base {
   display: flex;
   flex-direction: row;
   width: auto;
 }
-.loud{
+
+.loud {
   font-size: xxx-large;
   margin-left: 50px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.artBox{
+
+.artBox {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   align-content: center;
 }
-.art{
-  height: 300px;
-  border-radius: 110px;
+
+.selfie {
+  height: 250px;
+  border-radius: 20%;
   margin-left: 16%;
 }
+
 .name {
   font-family: 'Inter', sans-serif;
   background-color: var(--main-bg);
@@ -191,6 +212,7 @@ footer {
   margin-right: auto;
   margin-left: 10px;
 }
+
 .name2 {
   font-family: 'Inter', sans-serif;
   background-color: var(--main-bg);
@@ -198,6 +220,7 @@ footer {
   margin-right: auto;
   padding: 0%;
 }
+
 li a {
   background-color: var(--header);
   align-self: end;
@@ -211,10 +234,16 @@ li a {
   text-decoration: none;
   margin-right: 20px;
 }
+
 .portHead {
   width: 100%;
   text-align: center;
 }
+.nav-menu{
+  display:flex;
+  margin-left: auto;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -282,4 +311,87 @@ textarea {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  :root{
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    color: var(--head-txt);
+  }
+
+  .base {
+    background-color: var(--main-bg);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    height: auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-inline: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: var(--main-txt);
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding-left: 15px;
+  }
+
+  img.art {
+    border-radius: 50px;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 10px;
+  }
+
+  li a {
+    background-color: var(--header);
+    align-self: end;
+    font-family: 'Inter', sans-serif;
+    color: var(--main-txt);
+    text-align: center;
+    justify-self: right;
+    padding-inline: 14px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .div1 {
+    background-color: var(--main-bg);
+    font-family: 'Inter', sans-serif;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: var(--main-txt);
+  }
+  .portfolio{
+    overflow-x: hidden;
+  }
+  .portBody{
+    flex-direction: column;
+  }
+  .project{
+    width: 70%;
+    align-self: center;
+  }
+  .contactPage{
+    flex-direction: column;
+  }
+  .selfie{
+    margin-bottom: 40px;
+  }
+
 }
