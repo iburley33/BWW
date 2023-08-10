@@ -12,19 +12,19 @@ export default function About() {
       </div>
       <div class="div1">
         <h1>About Me</h1>
-        <h3 class='name2'>My name is Ian Burley. I'm a Professional Web Developer.</h3>
-        <p>
-          I’m also a proud husband and father of two. I’m interested in tech, fitness, hiking, gaming and honestly anything fun as long as my kids can come. My family and I are always looking for the next new experience and I’m always in a hurry to show the beauty of the world to my daughters. My family, including my big ol’ golden-doodle Jake, have blessed me with a perfect life and thanks to their support, I’m very excited to be on my new path to a career in tech.
-        </p>
-        <p>
-          Hello world! I wrote my first line of code in 2015. I decided to go the self taught route for some time, dabbled with friends, consumed content from YouTube, got a Treehouse membership, and just picked the brains of my developer friends whenever I could. It was just a hobby until Covid-19 changed the fitness industry and my career forever. During the pandemic I was given a lot more time to pursue my hobby. It was during this time that I decided that I needed to turn this hobby into a career for myself. It was time to get serious.
-        </p>
-        <h4>
-          In 2022 I enrolled and graduated from University of California's Full Stack Web Development Program.
-        </h4>
-        <p>
-          Since then I have been fortunate enough to connect with many talented developers and pursue my passion for creating, breaking and rebuilding new things. Let's build something together!
-        </p>
+        <h3 class='name2'>My name is Ian Burley.</h3>
+      <p>
+        I’m a seasoned web developer and a proud family man passionate about the confluence of technology and life's adventures. With my wife, two delightful daughters, and our exuberant golden-doodle, Jake, we're on a continuous quest for fresh experiences.
+      </p>
+      <p>
+        My journey in tech began in 2015 as a self-taught enthusiast, relying on platforms like Treehouse and invaluable insights from fellow developers. But as the world shifted with the onset of Covid-19, I pivoted from the fitness industry, transforming my coding hobby into a profession.
+      </p>
+      <h4>
+        In 2023 I graduated from University of California's Full Stack Web Development Program.
+      </h4>
+      <p>
+        This experience, combined with my fervor for innovation, has allowed me to collaborate with myriad skilled developers. I'm excited by the endless possibilities of creating, iterating, and evolving digital solutions. Let's embark on a tech odyssey together!
+      </p>
       </div>
     </div>
   );
